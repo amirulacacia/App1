@@ -17,11 +17,11 @@ public class App {
 
 class SecondClass {
     
-    public void secondMain(){
+    void secondMain(){
         System.out.println("This is a 2nd main inside 2nd class.");
     }
 
-    public static void thirdMain(){
+    static void thirdMain(){
         System.out.println("This is a 3rd main inside 2nd class.");
     }
 }
