@@ -10,7 +10,7 @@ public class App {
             ThirdClass.secondMain();
         }
         else {
-
+            ThirdClass.thirdMain();
         }
         
     }
