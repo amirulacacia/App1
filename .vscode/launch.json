@@ -6,6 +6,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Assignment1",
+            "request": "launch",
+            "mainClass": "assignment1.Assignment1",
+            "args": [
+                "Apple", "Orange", "Mango", "Banana", "Pineapple"
+            ],
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
             "name": "Test",
             "request": "launch",
             "mainClass": "quiz1.question8.Test",
