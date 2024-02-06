@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz1.question6.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz1.question4.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz1.question5.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz1.question2.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "TextBook",
+            "request": "launch",
+            "mainClass": "quiz1.question1.TextBook",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -15,8 +50,9 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "args":[
-                "24", "February"
+            "args": [
+                "24",
+                "February"
             ],
             "projectName": "App1_4bc55db8"
         }
