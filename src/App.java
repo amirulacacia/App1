@@ -6,8 +6,8 @@ public class App {
     public static void main(String[] args) {
 
         System.out.println("Hello World. " + args[0] + " " + args[1]);
-        Feb24(args[1]);
-        StringHandler();
+        lesson0(args[1]);
+        lesson1();
         lesson2();
         
     }
@@ -22,14 +22,14 @@ public class App {
         System.out.println(volume);
     }
 
-    public static void StringHandler() {
+    public static void lesson1() {
         StringHandler stringHandler = new StringHandler("in java classes");
         System.out.println(stringHandler.toString());
         stringHandler.setStr("in my new class");
         System.out.println(stringHandler.toString());
     }
 
-    public static void Feb24(String str) {
+    public static void lesson0(String str) {
         new Feb24(str);
     }
 }
