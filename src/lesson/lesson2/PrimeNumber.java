@@ -29,6 +29,21 @@ public class PrimeNumber {
         checkPrime(start, end);
     }
 
+    public static void checkPrime(int start, int end) {
+        int num = start - 1;
+
+        for (int i = start; i <= end; i++) {
+            if (isPrime(i)) {
+                System.out.print(i + " ");
+            } else
+                num++;
+        }
+
+        if (num == end) {
+            System.out.println("There is no prime number!");
+        }
+    }
+
     public static boolean isPrime(int num) {
         boolean condition = true;
 
@@ -50,20 +65,5 @@ public class PrimeNumber {
         }
 
         return condition;
-    }
-
-    public static void checkPrime(int start, int end) {
-        int num = start - 1;
-
-        for (int i = start; i <= end; i++) {
-            if (isPrime(i)) {
-                System.out.print(i + " ");
-            } else
-                num++;
-        }
-
-        if (num == end) {
-            System.out.println("There is no prime number!");
-        }
     }
 }
