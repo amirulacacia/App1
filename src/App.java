@@ -1,18 +1,17 @@
-import lesson0.Feb24;
-import lesson1.*;
-import lesson2.IntegerHandler;
+import lesson.lesson0.Feb24;
+import lesson.lesson1.*;
 
 public class App {
     public static void main(String[] args) {
 
         System.out.println("Hello World. " + args[0] + " " + args[1]);
         lesson0(args[1]);
-        lesson1();
-        lesson2();
+        lesson1a();
+        lesson1b();
         
     }
 
-    public static void lesson2() {
+    public static void lesson1b() {
         int numberOfVessels = 15;
         int[] dimension = {2, 4, 7};
         IntegerHandler integerHandler = new IntegerHandler(numberOfVessels, dimension);
@@ -22,7 +21,7 @@ public class App {
         System.out.println(volume);
     }
 
-    public static void lesson1() {
+    public static void lesson1a() {
         StringHandler stringHandler = new StringHandler("in java classes");
         System.out.println(stringHandler.toString());
         stringHandler.setStr("in my new class");
