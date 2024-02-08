@@ -7,6 +7,7 @@ public class AssignmentForTheDay {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // Scanning length of array, minimum and maximum random number
         System.out.print("Length of Array: ");
         int length = scanner.nextInt();
         System.out.print("Min Random Number: ");
@@ -15,37 +16,46 @@ public class AssignmentForTheDay {
         int max = scanner.nextInt();
         scanner.close();
 
+        // Generate Random Number
         int[] randNum = new int[length];
         randNum = generateNumber(randNum, length, max, min);
         System.out.println(Arrays.toString(randNum));
 
+        // Sorting Random Number
         selectionSort(randNum);
         System.out.println(Arrays.toString(randNum));
 
+        // Getting Mean, Mode and Median
         getMean(randNum);
         getMode(randNum);
         getMedian(randNum);
     }
 
     public static void getMedian(int[] num) {
-        int median;
+        double median;
+        int index1;
+        int index2;
 
         if (num.length % 2 == 0) {
-            median = (num.length + 1) / 2;
+            index1 = num.length / 2;
+            index2 = (num.length / 2) + 1;
+            median = ((double) num[index1 - 1] + (double) num[index2 - 1]) / 2;
         } else {
-            median = (num.length / 2 + (num.length / 2 + 1)) / 2;
+            index1 = (num.length + 1) / 2;
+            median = num[index1 - 1];
         }
 
-        System.out.println("Median = " + num[median]);
+        System.out.println("Median = " + median);
     }
 
     public static void getMode(int[] num) {
         int[] mode = new int[num.length];
         int frequencyMode = 1;
         int modeLength = 0;
-        int[][] tempMode = new int[num.length][2];
+        int[][] tempMode = new int[num.length][2]; // 1 bracket store value, 1 bracket store frequency
         int tempModeLength = 0;
 
+        // For-loop for finding frequency each value
         for (int i = 0, j = 0; i < num.length; i++) {
             if (i == 0 || tempMode[j][0] != num[i]) {
                 tempMode[j][0] = num[i];
@@ -61,17 +71,30 @@ public class AssignmentForTheDay {
             }
         }
 
+        // Uncomment to see the value and frequency of the data
+        System.out.println("Frequency of each value:");
+        for (int i = 0; i < tempModeLength; i++) {
+            System.out.printf("%d. Value: %d ,  Frequency: %d\n", i + 1, tempMode[i][0], tempMode[i][1]);
+        }
+        // Sorting the value based on frequency
         tempMode = selectionSort(tempMode, tempModeLength);
 
+        // Uncomment to see the value and frequency of the data after sorting
+        System.out.println("Frequency of each value after sorting:");
+        for (int i = 0; i < tempModeLength; i++) {
+            System.out.printf("%d. Value: %d ,  Frequency: %d\n", i + 1, tempMode[i][0], tempMode[i][1]);
+        }
+
+        // Finalizing mode of the random number
         for (int i = tempModeLength - 1, j = 0; i >= 0; i--) {
             if (i < tempModeLength - 1) {
                 if (frequencyMode == tempMode[i][1]) {
                     mode[j] = tempMode[i][0];
                     j++;
-                } else{
+                } else {
                     modeLength = j;
                     break;
-                }   
+                }
             } else {
                 mode[j] = tempMode[i][0];
                 frequencyMode = tempMode[i][1];
@@ -134,10 +157,11 @@ public class AssignmentForTheDay {
             // this 2 code.
             // This is due to double number being change into integer. Where the double
             // number were not round off to nearest number.
-            randomNum = Math.random() * (max - min + 1) + min; // This give high chance for max number to be trigger due
-                                                               // to percentage
-            // randomNum = Math.random() * (max - min) + min; // This give very low chance
-            // for max number to be trigger
+            // randomNum = Math.random() * (max - min + 1) + min; // This give high chance
+            // for max number to be trigger due
+            // to percentage but you will never get the minimum number
+            randomNum = Math.random() * (max - min) + min; // This give very low chance
+                                                           // for max number to be trigger
             // System.out.println(randomNum);
             num[i] = (int) randomNum;
         }
