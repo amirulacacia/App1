@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayListStringManipulator",
+            "request": "launch",
+            "mainClass": "lesson.lesson3.ArrayListStringManipulator",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListManipulator",
+            "request": "launch",
+            "mainClass": "lesson.lesson3.ArrayListManipulator",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
             "name": "FlowStatement2",
             "request": "launch",
             "mainClass": "lesson.lesson2.FlowStatement2",
