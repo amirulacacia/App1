@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExceptionHandling",
+            "request": "launch",
+            "mainClass": "assignment.assignment2.ExceptionHandling",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
             "name": "AssignmentForTheDay",
             "request": "launch",
             "mainClass": "assignment.assignment2.AssignmentForTheDay",

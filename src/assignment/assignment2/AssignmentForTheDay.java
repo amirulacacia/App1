@@ -72,18 +72,19 @@ public class AssignmentForTheDay {
         }
 
         // Uncomment to see the value and frequency of the data
-        System.out.println("Frequency of each value:");
-        for (int i = 0; i < tempModeLength; i++) {
-            System.out.printf("%d. Value: %d ,  Frequency: %d\n", i + 1, tempMode[i][0], tempMode[i][1]);
-        }
+        //System.out.println("Frequency of each value:");
+        //for (int i = 0; i < tempModeLength; i++) {
+        //    System.out.printf("%d. Value: %d ,  Frequency: %d\n", i + 1, tempMode[i][0], tempMode[i][1]);
+        //}
+        
         // Sorting the value based on frequency
         tempMode = selectionSort(tempMode, tempModeLength);
 
         // Uncomment to see the value and frequency of the data after sorting
-        System.out.println("Frequency of each value after sorting:");
-        for (int i = 0; i < tempModeLength; i++) {
-            System.out.printf("%d. Value: %d ,  Frequency: %d\n", i + 1, tempMode[i][0], tempMode[i][1]);
-        }
+        //System.out.println("Frequency of each value after sorting:");
+        //for (int i = 0; i < tempModeLength; i++) {
+        //    System.out.printf("%d. Value: %d ,  Frequency: %d\n", i + 1, tempMode[i][0], tempMode[i][1]);
+        //}
 
         // Finalizing mode of the random number
         for (int i = tempModeLength - 1, j = 0; i >= 0; i--) {
