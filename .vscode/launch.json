@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestShape",
+            "request": "launch",
+            "mainClass": "assignment.assignment3.Polymorphism.TestShape",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "assignment.assignment3.Assignment.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "assignment.assignment3.Inheritance.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "TestStudent",
+            "request": "launch",
+            "mainClass": "assignment.assignment3.Encapsulation.TestStudent",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson.lesson4.Exercise7.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson.lesson4.Inner_Class.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "lesson.lesson4.POJO_Class.Main",
