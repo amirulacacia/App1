@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz2.question44.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz2.question43.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz2.question36.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz2.question34.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz2.question32.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz2.question31.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz2.question30.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz2.question22.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz2.question18.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz2.question17.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz2.question35.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz2.question21.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
             "name": "TestShape",
             "request": "launch",
             "mainClass": "assignment.assignment3.Polymorphism.TestShape",

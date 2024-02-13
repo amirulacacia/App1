@@ -12,3 +12,8 @@ public class Main {
         System.out.println(MathUtils.isEven(number)? number + " is odd": number + " is even");
     }
 }
+// Static classes in Java are similar to static classes in C#, they cannot be instantiated,
+// and they can only contain static members. They are appropriate for utility classes that
+// contain methods applicable to a specific domain but don't require instance-specific data.
+// Static classes are also useful when you want to group related methods together without the
+// need for creating instances of the class.
