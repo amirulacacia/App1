@@ -1,4 +1,4 @@
-package assignment.assignment4;
+package lesson.lesson7.Exercise;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

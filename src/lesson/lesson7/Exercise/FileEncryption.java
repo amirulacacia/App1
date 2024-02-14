@@ -1,4 +1,4 @@
-package assignment.assignment4;
+package lesson.lesson7.Exercise;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -32,6 +32,8 @@ public class FileEncryption {
             writer.write(encryptedLine);
             writer.newLine();
         }
+
+        System.out.println("The encrypted file being created!");
 
         writer.close();
         reader.close();
