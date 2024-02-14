@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "assignment.assignment4.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
             "name": "SocketClientExample",
             "request": "launch",
             "mainClass": "lesson.lesson7.Socket.SocketClientExample",
