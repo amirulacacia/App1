@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "lesson.lesson8.AssignmentAbstractAndInterface.ShapeSorting.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson.lesson8.AssignmentAbstractAndInterface.EmployeeManagementSystem.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "lesson.lesson8.AssignmentJavaGenericClasses.GenericMatrix.Main",
             "projectName": "App1_4bc55db8"
         },
