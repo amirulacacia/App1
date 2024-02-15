@@ -8,6 +8,62 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "lesson.lesson8.AssignmentJavaGenericClasses.GenericMatrix.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson.lesson8.Assignment.SortingAlgorithm.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson.lesson8.Assignment.VehicleInterface.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson.lesson8.Assignment.BackAccountInterface.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson.lesson8.Assignment.ShapeHierarchy.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson.lesson8.Assignment.AnimalHierarchy.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "assignment.assignment8.AnimalHierarchy.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson.lesson8.InterfanceExample.Main",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "assignment.assignment4.Main",
             "projectName": "App1_4bc55db8"
         },
