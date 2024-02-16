@@ -1,4 +1,4 @@
-package lesson.lesson8.AssignmentAbstractAndInterface.EmployeeManagementSystem;
+package lesson.lesson8.assignmentabstractandinterface.EmployeeManagementSystem;
 
 public abstract class Employee {
     private String name;

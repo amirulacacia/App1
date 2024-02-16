@@ -1,4 +1,4 @@
-package lesson.lesson8.AssignmentAbstractAndInterface.BankAccountInterface;
+package lesson.lesson8.assignmentabstractandinterface.BankAccountInterface;
 
 public class Main {
     public static void main(String[] args) {

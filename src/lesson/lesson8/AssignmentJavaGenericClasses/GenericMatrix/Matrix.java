@@ -1,4 +1,4 @@
-package lesson.lesson8.AssignmentJavaGenericClasses.GenericMatrix;
+package lesson.lesson8.assignmentjavagenericclasses.GenericMatrix;
 
 import java.util.Arrays;
 

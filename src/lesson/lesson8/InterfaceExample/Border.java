@@ -1,4 +1,4 @@
-package lesson.lesson8.InterfaceExample;
+package lesson.lesson8.interfaceexample;
 
 public abstract class Border {
     public int border(){

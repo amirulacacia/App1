@@ -1,4 +1,4 @@
-package lesson.lesson8.AssignmentAbstractAndInterface.AnimalHierarchy;
+package lesson.lesson8.assignmentabstractandinterface.AnimalHierarchy;
 
 import java.util.Scanner;
 

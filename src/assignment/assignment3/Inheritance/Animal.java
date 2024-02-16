@@ -1,4 +1,4 @@
-package assignment.assignment3.Inheritance;
+package assignment.assignment3.inheritance;
 
 public class Animal {
     String name, sound;

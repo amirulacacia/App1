@@ -1,4 +1,4 @@
-package lesson.lesson8.AssignmentAbstractAndInterface.ShapeHierarchy;
+package lesson.lesson8.assignmentabstractandinterface.ShapeHierarchy;
 
 public class Square extends Shape {
     private double length;

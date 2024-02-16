@@ -1,4 +1,4 @@
-package lesson.lesson7.Exercise;
+package lesson.lesson7.exercise;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

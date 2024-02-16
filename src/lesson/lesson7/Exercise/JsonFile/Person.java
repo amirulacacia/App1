@@ -1,4 +1,4 @@
-package lesson.lesson7.Exercise.JsonFile;
+package lesson.lesson7.exercise.jsonfile;
 
 public class Person {
     private String name;

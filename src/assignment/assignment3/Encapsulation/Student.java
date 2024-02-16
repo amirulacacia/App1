@@ -1,4 +1,4 @@
-package assignment.assignment3.Encapsulation;
+package assignment.assignment3.encapsulation;
 
 public class Student {
     private String name;

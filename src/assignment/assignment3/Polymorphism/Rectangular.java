@@ -1,4 +1,4 @@
-package assignment.assignment3.Polymorphism;
+package assignment.assignment3.polymorphism;
 
 public class Rectangular extends Shape {
 

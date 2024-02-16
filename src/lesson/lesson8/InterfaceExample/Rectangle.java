@@ -1,4 +1,4 @@
-package lesson.lesson8.InterfaceExample;
+package lesson.lesson8.interfaceexample;
 
 public class Rectangle extends Border implements Shape, Fill {
     private double length, width;

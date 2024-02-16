@@ -1,4 +1,4 @@
-package lesson.lesson8.AssignmentAbstractAndInterface.FileCompressionUtility;
+package lesson.lesson8.assignmentabstractandinterface.FileCompressionUtility;
 
 public class Main {
     public static void main(String[] args) {

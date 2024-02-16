@@ -1,4 +1,4 @@
-package lesson.lesson8.AssignmentAbstractAndInterface.VehicleInterface;
+package lesson.lesson8.assignmentabstractandinterface.VehicleInterface;
 
 public interface Vehicle {
     void start();

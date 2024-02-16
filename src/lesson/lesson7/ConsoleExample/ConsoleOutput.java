@@ -1,4 +1,4 @@
-package lesson.lesson7.ConsoleExample;
+package lesson.lesson7.consoleexample;
 
 public class ConsoleOutput {
     public static void main(String[] args) {

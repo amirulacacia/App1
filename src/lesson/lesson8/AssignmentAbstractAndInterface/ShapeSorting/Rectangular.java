@@ -1,4 +1,4 @@
-package lesson.lesson8.AssignmentAbstractAndInterface.ShapeSorting;
+package lesson.lesson8.assignmentabstractandinterface.ShapeSorting;
 
 public class Rectangular implements SortableShape{
     private double length, width;

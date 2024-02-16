@@ -1,4 +1,4 @@
-package assignment.assignment3.Assignment;
+package assignment.assignment3.assignment;
 
 public class Circle extends Shape {
 

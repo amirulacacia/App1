@@ -1,10 +1,10 @@
-package lesson.lesson7.Exercise;
+package lesson.lesson7.exercise;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
-import lesson.lesson7.Exercise.JsonFile.MainJson;
+import lesson.lesson7.exercise.jsonfile.MainJson;
 
 public class Main {
     public static void main(String[] args) throws IOException, IllegalAccessException {

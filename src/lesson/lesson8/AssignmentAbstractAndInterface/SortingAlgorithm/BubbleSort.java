@@ -1,4 +1,4 @@
-package lesson.lesson8.AssignmentAbstractAndInterface.SortingAlgorithm;
+package lesson.lesson8.assignmentabstractandinterface.SortingAlgorithm;
 
 import java.util.Arrays;
 

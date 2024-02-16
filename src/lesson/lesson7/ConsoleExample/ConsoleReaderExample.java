@@ -1,4 +1,4 @@
-package lesson.lesson7.ConsoleExample;
+package lesson.lesson7.consoleexample;
 
 import java.util.Scanner;
 

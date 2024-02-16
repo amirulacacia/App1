@@ -1,4 +1,4 @@
-package assignment.assignment3.Encapsulation;
+package assignment.assignment3.encapsulation;
 
 public class TestStudent {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package lesson.lesson8.AssignmentAbstractAndInterface.EmployeeManagementSystem;
+package lesson.lesson8.assignmentabstractandinterface.EmployeeManagementSystem;
 
 public class Main {
     public static void main(String[] args) {

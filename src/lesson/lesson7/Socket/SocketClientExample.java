@@ -1,4 +1,4 @@
-package lesson.lesson7.Socket;
+package lesson.lesson7.socket;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

@@ -1,4 +1,4 @@
-package lesson.lesson8.AssignmentAbstractAndInterface.RemoteControlSystem;
+package lesson.lesson8.assignmentabstractandinterface.RemoteControlSystem;
 
 public class StereoRemote implements RemoteControl  {
     @Override

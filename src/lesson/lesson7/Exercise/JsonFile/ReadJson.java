@@ -1,4 +1,4 @@
-package lesson.lesson7.Exercise.JsonFile;
+package lesson.lesson7.exercise.jsonfile;
 
 import java.io.IOException;
 import java.nio.file.Files;

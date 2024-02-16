@@ -1,4 +1,4 @@
-package lesson.lesson8.AssignmentJavaGenericClasses.GenericMatrix;
+package lesson.lesson8.assignmentjavagenericclasses.GenericMatrix;
 
 public class Main {
     public static void main(String[] args) {

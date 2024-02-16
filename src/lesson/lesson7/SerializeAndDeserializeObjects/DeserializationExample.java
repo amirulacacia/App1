@@ -1,4 +1,4 @@
-package lesson.lesson7.SerializeAndDeserializeObjects;
+package lesson.lesson7.serializeanddeserializeobjects;
 
 import java.io.FileInputStream;
 import java.io.IOException;

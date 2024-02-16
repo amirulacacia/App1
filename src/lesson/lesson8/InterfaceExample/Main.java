@@ -1,4 +1,4 @@
-package lesson.lesson8.InterfaceExample;
+package lesson.lesson8.interfaceexample;
 
 public class Main {
     public static void main(String[] args) {

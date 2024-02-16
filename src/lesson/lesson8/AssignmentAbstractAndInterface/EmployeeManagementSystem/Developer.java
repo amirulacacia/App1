@@ -1,4 +1,4 @@
-package lesson.lesson8.AssignmentAbstractAndInterface.EmployeeManagementSystem;
+package lesson.lesson8.assignmentabstractandinterface.EmployeeManagementSystem;
 
 public class Developer extends Employee {
     public Developer(String name, int id) {

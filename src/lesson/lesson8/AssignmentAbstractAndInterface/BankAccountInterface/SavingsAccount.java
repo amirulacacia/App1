@@ -1,4 +1,4 @@
-package lesson.lesson8.AssignmentAbstractAndInterface.BankAccountInterface;
+package lesson.lesson8.assignmentabstractandinterface.BankAccountInterface;
 
 public class SavingsAccount implements BankAccount {
     private double balance;
