@@ -1,4 +1,4 @@
-package lesson.lesson8.assignmentabstractandinterface.PaymentGatewayIntegration;
+package lesson.lesson8.assignmentabstractandinterface.paymentgatewayintegration;
 
 public class Main {
     public static void main(String[] args) {

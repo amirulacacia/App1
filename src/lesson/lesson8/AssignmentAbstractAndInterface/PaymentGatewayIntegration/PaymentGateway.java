@@ -1,4 +1,4 @@
-package lesson.lesson8.assignmentabstractandinterface.PaymentGatewayIntegration;
+package lesson.lesson8.assignmentabstractandinterface.paymentgatewayintegration;
 
 public interface PaymentGateway {
     void processPayment(double amount);

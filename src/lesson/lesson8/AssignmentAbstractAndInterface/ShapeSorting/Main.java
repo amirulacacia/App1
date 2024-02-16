@@ -1,4 +1,4 @@
-package lesson.lesson8.assignmentabstractandinterface.ShapeSorting;
+package lesson.lesson8.assignmentabstractandinterface.shapesorting;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package lesson.lesson8.assignmentabstractandinterface.BankAccountInterface;
+package lesson.lesson8.assignmentabstractandinterface.bankaccountinterface;
 
 public interface BankAccount {
     void deposit(double amount);

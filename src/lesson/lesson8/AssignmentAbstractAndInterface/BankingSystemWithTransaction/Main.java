@@ -1,4 +1,4 @@
-package lesson.lesson8.assignmentabstractandinterface.BankingSystemWithTransaction;
+package lesson.lesson8.assignmentabstractandinterface.bankingsystemwithtransaction;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package lesson.lesson8.assignmentabstractandinterface.AnimalHierarchy;
+package lesson.lesson8.assignmentabstractandinterface.animalhierarchy;
 
 public class Bird extends Animal{
 

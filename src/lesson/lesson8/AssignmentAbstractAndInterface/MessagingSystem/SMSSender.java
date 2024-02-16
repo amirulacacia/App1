@@ -1,4 +1,4 @@
-package lesson.lesson8.assignmentabstractandinterface.MessagingSystem;
+package lesson.lesson8.assignmentabstractandinterface.messagingsystem;
 
 public class SMSSender implements MessageSender {
 

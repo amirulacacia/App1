@@ -1,4 +1,4 @@
-package lesson.lesson8.assignmentabstractandinterface.FileCompressionUtility;
+package lesson.lesson8.assignmentabstractandinterface.filecompressionutility;
 
 public class LZMAAlgorithm extends CompressionAlgorithm{
 

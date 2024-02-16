@@ -1,4 +1,4 @@
-package lesson.lesson8.assignmentabstractandinterface.ShapeHierarchy;
+package lesson.lesson8.assignmentabstractandinterface.shapehierarchy;
 
 public class Main {
     public static void main(String[] args) {

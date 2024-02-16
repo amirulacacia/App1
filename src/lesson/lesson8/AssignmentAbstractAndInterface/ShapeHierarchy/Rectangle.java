@@ -1,4 +1,4 @@
-package lesson.lesson8.assignmentabstractandinterface.ShapeHierarchy;
+package lesson.lesson8.assignmentabstractandinterface.shapehierarchy;
 
 public class Rectangle extends Shape {
     private double width, length;

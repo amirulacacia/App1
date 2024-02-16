@@ -1,4 +1,4 @@
-package lesson.lesson8.assignmentabstractandinterface.EmployeeManagementSystem;
+package lesson.lesson8.assignmentabstractandinterface.employeemanagementsystem;
 
 public class Intern extends Employee{
     public Intern(String name, int id){

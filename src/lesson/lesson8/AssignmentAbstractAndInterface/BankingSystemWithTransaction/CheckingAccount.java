@@ -1,4 +1,4 @@
-package lesson.lesson8.assignmentabstractandinterface.BankingSystemWithTransaction;
+package lesson.lesson8.assignmentabstractandinterface.bankingsystemwithtransaction;
 
 import java.util.ArrayList;
 import java.util.List;

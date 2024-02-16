@@ -1,4 +1,4 @@
-package lesson.lesson8.assignmentabstractandinterface.VehicleInterface;
+package lesson.lesson8.assignmentabstractandinterface.vehicleinterface;
 
 public class Main {
     public static void main(String[] args) {
