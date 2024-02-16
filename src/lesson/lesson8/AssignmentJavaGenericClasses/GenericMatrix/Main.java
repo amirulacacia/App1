@@ -29,7 +29,7 @@ public class Main {
         matrix3.setElement(1, 1, 17);
         matrix3.setElement(1, 2, 18);
 
-        // Initialize matrix 3 size 2x3
+        // Initialize matrix 4 size 2x3
         Matrix<String> matrix4 = new Matrix<>(2, 3);
         matrix4.setElement(0, 0, "Apple");
         matrix4.setElement(0, 1, "Orange");

@@ -116,7 +116,7 @@ public class Matrix<T> {
         }
 
         // Checking the instanceof element1
-        if (element1 instanceof Integer) {
+        if (element1 instanceof Integer ) {
             return (T) Integer.valueOf(((Integer) element1) + ((Integer) element2));
             // Explanation:
             // 1. ((Integer) element1) + ((Integer) element2): This part adds two Integer
