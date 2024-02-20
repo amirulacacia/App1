@@ -7,6 +7,7 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Point;
 import java.awt.Shape;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,7 +20,7 @@ public class DrawPanel extends JPanel {
     private List<Color> shapeColors = new ArrayList<>();
     private List<Integer> shapeThicknesses = new ArrayList<>();
 
-    private Color currentColor = new Color(0, 0, 0);
+    protected Color currentColor = new Color(0, 0, 0);
     private int currentThickness = 2;
 
     // Initialize an array to store the undo item
@@ -40,9 +41,24 @@ public class DrawPanel extends JPanel {
     }
 
     public void drawShape(DrawingShape shapeType) {
+        int databaseSize = shapes.size() + undoShapes.size();
+
+        DatabaseDeletion databaseDeletion = new DatabaseDeletion();
+        for (int i = databaseSize; i > shapes.size(); i--) {
+            try {
+                databaseDeletion.deleteShapeFromDatabase(i);
+                databaseDeletion.alterIdAutoIncremenentDatabase(i);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+
+        undoShapes.clear();
+        undoColors.clear();
+        undoThickness.clear();
+        
         Shape shape = null;
         shape = shapeType.draw();
-
         if (shape != null) {
             shapes.add(shape);
             shapeColors.add(currentColor);
@@ -60,7 +76,7 @@ public class DrawPanel extends JPanel {
             freeForm.freeformPoints.add(currentPoint);
         }
     }
-
+    
     public void addPoint(Point startPoint, Point endPoint, DrawingShape shape) {
         shape.startPoint.setLocation(startPoint);
         shape.endPoint.setLocation(endPoint);
