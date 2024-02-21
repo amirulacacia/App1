@@ -8,6 +8,132 @@
             "type": "java",
             "name": "Test",
             "request": "launch",
+            "mainClass": "quiz.quiz3.question6.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question65.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question63.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question58.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question57.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question54.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question51.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question48.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question44.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question43.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "B",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question38.B",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "C",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question38.C",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "A",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question38.A",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question37.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question33.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question11.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question27.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "quiz.quiz3.question23.Test",
+            "projectName": "App1_4bc55db8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
             "mainClass": "quiz.quiz3.question20.Test",
             "projectName": "App1_4bc55db8"
         },

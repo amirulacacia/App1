@@ -13,7 +13,7 @@ interface Perishable2 extends Perishable1 {
 }
 
 @SuppressWarnings("unused")
-class Milk implements Perishable1, Perishable2 {
+class Milk implements Perishable2, Perishable1 {
 
 }
 

@@ -18,6 +18,7 @@ class Horse extends Animal implements Rideable {
 public class Test {
     public static void main(String[] args) {
         Animal horse = new Horse();
+        
         ((Horse) horse).ride("Emma"); // Correct
         // horse.ride("EMMA"); // Wrong because there is no ride method on Animal class
         ((Rideable) horse).ride("emma"); // Correct

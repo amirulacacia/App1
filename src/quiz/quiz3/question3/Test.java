@@ -2,7 +2,7 @@ package quiz.quiz3.question3;
 
 public class Test {
     public static void main(String[] args) {
-        Currency c1 = new USDollar();
+        USDollar c1 = new USDollar();
         System.out.println(c1.notation + ":" + c1.getNotation());
 
         Currency c2 = new Euro();
