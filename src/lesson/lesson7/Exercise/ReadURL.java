@@ -13,6 +13,7 @@ public class ReadURL {
         String urlString = "https://www.java.com/en/";
 
         // Create a URL object with specified URL string
+        @SuppressWarnings("deprecation")
         URL url = new URL(urlString);
 
         // Open a connection to the URL
